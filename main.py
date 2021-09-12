@@ -13,5 +13,6 @@ def habar(message):
   try:
     bot.reply_to(message,num2words(message.text))
   except:
+    bot.reply_to(message,'Iltimos raqam yuboring')
 	
 bot.polling()
